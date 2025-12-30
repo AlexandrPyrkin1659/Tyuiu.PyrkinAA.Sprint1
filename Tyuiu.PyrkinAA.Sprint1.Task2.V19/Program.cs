@@ -20,7 +20,7 @@ namespace Tyuiu.PyrkinAA.Sprint1.Task2.V19
             Console.WriteLine("***************************************************************************");
 
             double result = ds.ConvertInchToKm(x);
-            double roundedResult = Math.Round(result, 3);
+            double roundedResult = Math.Round(result, 4);
             Console.WriteLine("Расстояние в метрах X = " + roundedResult);
             Console.ReadLine();
         }
