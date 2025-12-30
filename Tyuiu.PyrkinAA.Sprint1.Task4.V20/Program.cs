@@ -22,7 +22,7 @@ namespace Tyuiu.PyrkinAA.Sprint1.Task4.V20.Lib
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("1 + x / (x - Math.Sqrt(2 + y)) = " + ds.Calculate(x, y));
+            Console.WriteLine("(1 + x) / Math.Abs(x - Math.Sqrt(2 + y)) = " + ds.Calculate(x, y));
             Console.ReadKey();
         }
     }
