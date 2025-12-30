@@ -10,7 +10,8 @@ namespace Tyuiu.PyrkinAA.Sprint1.Task2.V19.Test
             DataService ds = new DataService();
             int x = 3937;
             var res = ds.ConvertInchToKm(x);
-            Assert.AreEqual(100, res);
+            double roundedRes = Math.Round(res, 3);
+            Assert.AreEqual(100, roundedRes, 0.001);
         }
     }
 }

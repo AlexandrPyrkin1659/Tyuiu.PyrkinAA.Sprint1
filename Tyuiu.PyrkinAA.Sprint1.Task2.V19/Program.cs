@@ -19,7 +19,9 @@ namespace Tyuiu.PyrkinAA.Sprint1.Task2.V19
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Растояние в метрах X = " + ds.ConvertInchToKm(x));
+            double result = ds.ConvertInchToKm(x);
+            double roundedResult = Math.Round(result, 3);
+            Console.WriteLine("Расстояние в метрах X = " + roundedResult);
             Console.ReadLine();
         }
     }
