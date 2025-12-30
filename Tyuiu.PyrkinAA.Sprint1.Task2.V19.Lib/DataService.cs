@@ -5,7 +5,7 @@ namespace Tyuiu.PyrkinAA.Sprint1.Task2.V19.Lib
     {
         public double ConvertInchToKm(int value)
         {
-            return value / 39.37;
+            return Math.Round(value / 39.37, 3);
 
         }
     }
